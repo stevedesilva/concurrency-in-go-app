@@ -40,6 +40,7 @@ func main() {
 	}
 }
 
+// stdInput standard input
 func stdInput(out chan<- []byte) {
 	for {
 		data := make([]byte, 1024)
